@@ -18,23 +18,13 @@ Then make sure you have Internet connection on the Arch iso. If you have a wirel
 
 Then download the script with from the command line:
 
-    curl -LO archfi.sf.net/archfi
-
-If SourceForge is down, use this instead:
-
-    curl -LO matmoul.github.io/archfi
+    curl -LO https://raw.githubusercontent.com/WillTroutman/archfi/master/archfi
 
 Finally, launch the script:
 
     sh archfi
 
 Then follow the on-screen instructions to completion.
-
-If you require extra help, visit the provided video playlist and follow my example.
-
-## More custom install
-
-    sh archfi -cpl {URL of your custom package list}
 
 You can find a sample custom package list file in the samples folder.
 
